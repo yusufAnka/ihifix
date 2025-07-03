@@ -28,3 +28,174 @@ nav ul{
     align-items: center;
     font-weight: bold;
 }
+
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+
+.cart button {
+    padding: 0.7rem 2.4rem;
+    border-radius:25px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease
+
+}
+
+.logo{
+   color: grey;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.hero {
+    align-items: center;
+    display: grid;
+    font-family: sans-serif;
+    grid-template-columns: 1fr 1.2fr;
+    justify-content: space-between;
+    position: relative;
+    text-align: left;
+    border-bottom: 1px solid grey;
+    gap: 30px;
+    padding: 40px;
+    width: 100%;
+}
+
+.hero-first {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.hero h1 {
+    font-size: 54px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.hero h2 {
+    font-size: 55px;
+    margin-top: 0px;
+}
+
+.hero h2, .hero h3 {
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
+
+.hero h3 {
+    font-size: 25px;
+    margin-top: 1.5rem;
+}
+
+.btn {
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-weight: 700;
+    gap: 6px;
+}
+
+.btn .purchase {
+    padding: 0.7rem 2.4rem;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #0088ff;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: grey 3px 2px 2px;
+}
+
+.btn .watch {
+    padding: 0.7rem 2.4rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: grey 3px 2px 2px;
+}
+
+.features {
+  display: flex;
+  justify-content: flex-start; /* aligns all items to the left */
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: center;
+}
+
+.subcarrier {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.center-img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.text-box h4 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.text-box p {
+  color: #a3a3a3;
+  font-weight: 700;
+  line-height: 25px;
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .features {
+    justify-content: center;
+  }
+
+  .subcarrier {
+    width: 100%;  /* stacks full width */
+    max-width: 400px;
+  }
+}
+
+.img-feature-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#img-feature {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+}
