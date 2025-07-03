@@ -17,8 +17,8 @@ nav{
     cursor: pointer;
     position: fixed;
     z-index: 999;
-    margin-top: -550px;
-    
+    top: 0;
+    left: 0;
 }
 
 .cart{
@@ -42,7 +42,6 @@ nav ul{
     gap: 20px;
     align-items: center;
     font-weight: bold;
-<<<<<<< HEAD
 }
 
 
@@ -50,6 +49,15 @@ nav ul{
   nav ul {
     flex-direction: row;
     gap: 10px;
+  }
+  .features {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subcarrier {
+    width: 100%;
+    max-width: 400px;
   }
 }
 
@@ -62,14 +70,11 @@ nav ul{
     font-weight: 800;
     cursor: pointer;
     text-decoration: none;
-    transition: all 0.3s ease
-=======
->>>>>>> 7d1388a3c4723af237a46cd83c0165e92abca69c
+    transition: all 0.3s ease;
 
 }
 
 .logo{
-<<<<<<< HEAD
    color: grey;
    display: flex;
    justify-content: center;
@@ -108,7 +113,7 @@ nav ul{
     font-size: 55px;
     margin-top: 0px;
 }
-
+                    
 .hero h2, .hero h3 {
     font-weight: lighter;
     margin-bottom: 1rem;
@@ -142,11 +147,7 @@ nav ul{
 .btn .watch {
     padding: 0.7rem 2.4rem;
     border-radius: 5px;
-    border: 1px solid black;
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
+    border: none;
     color: black;
     font-weight: bolder;
     cursor: pointer;
@@ -218,9 +219,3 @@ nav ul{
     align-items: center;
   }
 }
-=======
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
->>>>>>> 7d1388a3c4723af237a46cd83c0165e92abca69c
